@@ -1,0 +1,125 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  margin: unset;
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+/* IMG */
+
+svg{
+  float: left;
+}
+
+.timesvg{
+  padding-right: 0px;
+  padding-left: 6px;
+}
+
+.equilibrium-img{
+  width: 210px;
+  border-radius: 5%
+}
+
+.img-avatar{
+  width: 10%;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #fff;
+}
+
+/* DIV */
+
+.box{
+  border-radius: 5%;
+  background-color: hsl(216, 50%, 16%);
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  }
+
+div.main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 0;
+  }
+
+.text{
+
+box-sizing: border-box;
+padding: 0 20px;
+}
+
+.price-time-txt{
+  display: flex;
+  justify-content: space-between;
+}
+
+.etherum,.time{
+  width: 80px;
+}
+
+
+.img-text-avatar{
+  margin: 1rem 0;
+}
+
+
+.attribution{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+/* Text */
+h3{
+  font-weight: 600;
+}
+span,h3{
+  color: #fff;
+}
+
+h3,p{
+  margin-top: 0;
+}
+
+.etherum-price{
+  text-align: end;
+  padding-top: 2px;
+  padding-right: 8px;
+  color: hsl(178, 100%, 50%);
+}
+
+.line1,.avatar-text{
+  color: hsl(215, 32%, 27%);
+  font-weight: 400;
+}
+
+.line2{
+  color: hsl(215, 51%, 70%);
+  padding-top: 2px;
+  text-align: end;
+}
+
+.avatar-text{
+  float: right;
+  margin: 3px 30px 8px 0;
+}
+
+.etherum-price,.line2,.avatar-text{
+  font-weight: 300;
+}
+
+hr{
+  color: white;
+  opacity: 0.1;
+  border: none;
+  border-top: 1px solid;
+}
